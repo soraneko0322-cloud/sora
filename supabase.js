@@ -3,8 +3,8 @@
    ✅ 이 파일 상단 두 줄만 본인 값으로 교체!
    ============================================= */
 
-const SUPABASE_URL  = 'https://uvgdfaxurcohjfrjqcgq.supabase.co';
-const SUPABASE_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV2Z2RmYXh1cmNvaGpmcmpxY2dxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE4NzAyMzEsImV4cCI6MjA5NzQ0NjIzMX0.6kL8d2mUVDtvUFthRkdgoeHjrZwNfzf4GfYrOGdoyoQ';
+const SUPABASE_URL  = 'https://okeedfabnkriwaujfyks.supabase.co';
+const SUPABASE_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9rZWVkZmFibmtyaXdhdWpmeWtzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI1NDc0NjgsImV4cCI6MjA5ODEyMzQ2OH0.XpMfp-NuBpiLGx0HVFnL_0qLZaCHkwwIsbKM2HHQ5M4';
 
 // ── Supabase 클라이언트 초기화 ──
 const { createClient } = supabase;
