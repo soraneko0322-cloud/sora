@@ -259,6 +259,18 @@ body.day .panel{background:rgba(255,255,255,.72); box-shadow:0 14px 36px rgba(43
     .s-num{width:24px; font-size:12px;} .s-genre{font-size:10px; padding:2px 8px;} .dot{width:7px; height:7px;}
   }
 
+
+/* === 모바일 내비 (공통, 자동삽입) === */
+@media (max-width:760px){
+  .nav{flex-direction:column; align-items:center; gap:10px;}
+  .brandwrap{margin-right:0; justify-content:center;}
+  .menu{position:static; transform:none; flex-wrap:wrap; justify-content:center; white-space:normal; gap:4px 4px; width:100%;}
+  .ctrls{margin-left:0;}
+}
+@media (max-width:430px){
+  .menu a{padding:6px 10px; font-size:14px;}
+  .nav-logo{font-size:22px !important;}
+}
 </style>
 </head>
 <body>
